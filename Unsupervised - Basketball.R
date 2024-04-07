@@ -15,7 +15,7 @@ library(Rtsne)
 ########################### DATA CLEANING ######################################
 
 
-data.original <- read_csv("C:/Users/sangi/Desktop/SL exam/Basketball/players_stats_by_season_full_details.csv")
+data.original <- read_csv("https://raw.githubusercontent.com/lucasangio01/statistical-learning-methods/main/Data/players_stats_by_season_full_details.csv")
 
 selected_leagues <- c("Italian-Lega-Basket-Serie-A", "Spanish-ACB", "German-BBL", 
                       "Turkish-BSL", "French-Jeep-Elite")

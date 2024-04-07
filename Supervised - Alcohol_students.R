@@ -30,8 +30,8 @@ library(e1071)
 ################ IMPORTING THE DATA ############################################
 
 
-data.raw_alc.mat <- read.csv("C:/Users/sangi/Desktop/SL exam/StudentAlcohol/student-mat.csv")
-data.raw_alc.por <- read.csv("C:/Users/sangi/Desktop/SL exam/StudentAlcohol/student-por.csv")
+data.raw_alc.mat <- read.csv("https://raw.githubusercontent.com/lucasangio01/statistical-learning-methods/main/Data/student-mat.csv")
+data.raw_alc.por <- read.csv("https://raw.githubusercontent.com/lucasangio01/statistical-learning-methods/main/Data/student-por.csv")
 
 data.raw_alc.mat$Subject <- "Maths"
 data.raw_alc.por$Subject <- "Portuguese"
